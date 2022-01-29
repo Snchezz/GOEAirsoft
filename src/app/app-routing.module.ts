@@ -19,7 +19,7 @@ import { NuevalocalizacionComponent } from './nuevalocalizacion/nuevalocalizacio
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'contacto', component: ContactoComponent },
-  { path: 'shop', component: VentaComponent },
+  { path: 'tienda', component: VentaComponent },
   { path: 'noticias', component: NoticiasComponent },
   { path: 'faqs', component: InfoComponent },
   { path: 'cookies', component: CookiesComponent },

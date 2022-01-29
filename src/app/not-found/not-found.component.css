@@ -1,20 +1,12 @@
 
-  .padre-transform{
-    background: url("../../assets/404.jpg"); 
+  body{
+    background-image: url("../../assets/404.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
   }
    
-  .padre-transform > div{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 50%;
-    text-align: center;
-  }
    
 
   h1, h2 {

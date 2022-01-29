@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import * as M from 'materialize-css';
 
 @Component({
@@ -8,8 +9,10 @@ import * as M from 'materialize-css';
 })
 export class CarritoComponent implements OnInit {
 
-  constructor() { }
-  ngOnInit(): void {   
+  constructor(private title:Title) { }
+
+  ngOnInit(): void {
+    this.title.setTitle("GOE Airsoft - Carrito")
   }
 
 
