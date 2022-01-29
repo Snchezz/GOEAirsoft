@@ -1,0 +1,45 @@
+<body>
+
+
+    <app-nav></app-nav>
+    <br><br>
+
+    <div class="row">
+        <div class="col col m3 s6 push-m3">
+            <h3>
+                Inicia Sesion
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col m6 s12 push-m3 formbg">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">Correo o usuario</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col m6 s12 push-m3 formbg">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col m6 s12 push-m3">
+                    <p>¿Aún no tienes cuenta? <a routerLink="/registro">Registrate</a></p>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="input-field col m6 s12 push-m3">
+                    <button onclick="alert('Bienvenido de nuevo!')" class="btn waves-effect waves-light black" type="submit" name="action">Entrar
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br><br><br><br>
+    <app-footer></app-footer>
+
+</body>

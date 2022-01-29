@@ -1,0 +1,8 @@
+a {
+    transition: ease-in-out .3s;
+    color: #fff !important;
+}
+
+a:hover {
+    color: grey !important;
+}

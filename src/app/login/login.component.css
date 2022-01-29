@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/5668.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+label {
+    color: #000 !important;
+    font-family: 'block', 'arial', sans-serif;
+
+}
+
+input {
+    font-family: 'block', 'arial', sans-serif;
+}
+
+#password{
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #000 !important;
+}
+
+h3 {
+    font-family: 'block', Arial, sans-serif;
+}
+
+a, p {
+    font-size: 20px;
+    font-family: 'block', Arial, sans-serif;
+    transition: ease-in-out .3s;
+    color: #000;
+}
+
+a:hover {
+    color: #039be5;
+    text-decoration: underline;
+}
+
+button {
+    font-family: 'block', Arial, sans-serif;
+    font-size: 20px;
+    transition: ease-in-out .3s;
+}
+
+button:hover {
+    transform: scale(1.08);
+}

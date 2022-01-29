@@ -1,0 +1,26 @@
+p {
+    font-size: 30px;
+}
+
+h4 {
+    font-family: 'block', 'arial', sans-serif;
+    font-size: 45px;
+}
+
+.h4 {
+    background-color: #000;
+    color: #fff;
+}
+
+.textwhite {
+    color: #fff;
+}
+
+#fondo {
+    background-image: url(https://w0.peakpx.com/wallpaper/138/336/HD-wallpaper-acu-camo-pattern-army-patterns-military.jpg);
+    background-repeat: repeat;
+}
+
+#up {
+    margin-top: -16px;
+}

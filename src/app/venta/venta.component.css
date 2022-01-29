@@ -1,0 +1,93 @@
+.button {
+    width: 100vh !important;
+    background-color: red !important;
+}
+
+p, li, a {
+    color: #000;
+}
+
+.tooltipped {
+    color: #fff !important;
+}
+
+.blan {
+    color: white;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.dinero {
+    font-family: 'block', 'arial', sans-serif;
+    color: red;
+    font-size: 23px;
+}
+
+.dinerooferta {
+    color: black !important;
+}
+
+.barra {
+    color: black !important;
+}
+
+h1 {
+    font-family: 'block', 'arial', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-image: url(https://w0.peakpx.com/wallpaper/585/919/HD-wallpaper-green-autumn-camouflage-military-camouflage-camouflage-backgrounds-camouflage-textures-green-camouflage-background-camouflage-pattern-autumn-camouflage.jpg);
+    background-repeat: repeat;
+}
+
+.btn {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.image {
+    width: 400px;
+}
+
+@media (min-width<=300px) {
+    .modal {
+        width: 100px !important;
+        height: 100px !important;
+    }
+}
+
+@media (max-width>600px) {
+    .modal {
+        width: 400px !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width>992px) {
+    .modal {
+        width: 400px !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width>1200px) {
+    .modal {
+        width: 400px !important;
+        height: auto !important;
+    }
+}   
+
+.precios {
+    font-size: 20px;
+}
+
+.marginleft {
+    margin-left: 25%;
+}
+
+.pointer {
+    cursor: pointer;
+}

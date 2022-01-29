@@ -1,0 +1,31 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<nav class="black" style="padding:0px 10px;">
+	<div class="nav-wrapper">
+		<a id="text" routerLink="/home" class="brand-logo">GOE AIRSOFT</a>
+
+		<a href="/home" class="sidenav-trigger" data-target="mobile-nav">
+			<i class="material-icons">menu</i>
+		</a>
+
+		<ul class="right hide-on-med-and-down">
+			<li><a routerLinkActive="active" routerLink="/home">Home</a></li>
+			<li><a routerLinkActive="active" routerLink="/faqs">FAQs</a></li>
+			<li><a routerLinkActive="active" routerLink="/noticias">Noticias</a></li>
+			<li><a routerLinkActive="active" routerLink="/shop">Tienda</a></li>
+			<li><a routerLinkActive="active" routerLink="/contacto">Contacto</a></li>			
+		</ul>
+	</div>
+</nav>
+
+
+<ul class="sidenav" id="mobile-nav">
+	<li><a routerLinkActive="active" id="txtnav" routerLink="/home">Home</a></li>
+	<li><a routerLinkActive="active" id="txtnav" routerLink="/faqs">FAQs</a></li>
+	<li><a routerLinkActive="active" id="txtnav" routerLink="/noticias">Noticias</a></li>
+	<li><a routerLinkActive="active" id="txtnav" routerLink="/shop">Tienda</a></li>
+	<li><a routerLinkActive="active" id="txtnav" routerLink="/contacto">Contacto</a></li>
+</ul>

@@ -1,0 +1,57 @@
+<body>
+
+
+    <app-nav></app-nav>
+    <br><br>
+
+    <div class="row">
+        <div class="col col m3 s6 push-m3">
+            <h3>
+                Registrate
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col m3 s6 push-m3 formbg">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">Nombre</label>
+                </div>
+                <div class="input-field col m3 s6 push-m3 formbg">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Apellidos</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col m6 s12 push-m3 formbg">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                    <span class="helper-text" data-error="Formato correo erroneo!"
+                        data-success="Formato correo correcto!"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col m6 s12 push-m3 formbg">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m6 s12 push-m3 center">
+                    <p><a routerLink="/login">Inicia sesion</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col m6 s12 push-m3 center">
+                    <button onclick="alert('Bienvenido a GOE Airsoft!!')" class="btn waves-effect waves-light black" type="submit" name="action">Registrar
+                        <i class="material-icons right">person_add</i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br><br>
+    <app-footer></app-footer>
+
+</body>

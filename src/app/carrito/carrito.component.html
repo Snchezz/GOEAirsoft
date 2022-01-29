@@ -1,0 +1,127 @@
+<body>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+    <app-nav></app-nav>
+    <br><br>
+
+    <div class="row">
+        <div class="center">
+            <h3>
+                Carrito
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="offset-l2 col l5 m6 s12">
+            <h4>
+                <i class="small material-icons">local_shipping</i>
+                Método de envio
+            </h4>
+            <hr>
+            <form action="#">
+                <p>
+                    <img class="responsive-img img" src="https://www.cmb.cat/wp-content/uploads/2013/12/logo-nacex.jpg"
+                        alt=""><br>
+                    <input class="with-gap" name="group1" type="radio" id="test1" />
+                    <label for="test1">Nacex</label>
+                </p>
+                <p>
+                    <img class="responsive-img img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Ojq-258TNUeVx8lHKBPUblDkaov0efOUXV03tvj4zoIQEPs2Kx0vOAPAH-hi8O4xuAw&usqp=CAU"
+                        alt=""> <br>
+                    <input class="with-gap" name="group1" type="radio" id="test2" />
+                    <label for="test2">Correos</label>
+                </p>
+                <p>
+                    <img class="responsive-img img"
+                        src="https://www.tuexperto.com/wp-content/uploads/2019/09/mrw-logo.jpg" alt=""> <br>
+
+                    <input class="with-gap" name="group1" type="radio" id="test3" />
+                    <label for="test3">MRW</label>
+                </p>
+            </form>
+
+
+        </div>
+        <div class="col l4 s12 m6">
+            <h4>
+                <i class="small material-icons">credit_card</i>
+                Método de pago
+            </h4>
+            <hr>
+            <form action="#">
+                <p>
+                    <img class="responsive-img img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/2560px-PayPal.svg.png"
+                        alt=""><br>
+                    <input class="with-gap" name="group2" type="radio" id="test4" />
+                    <label for="test4">PayPal</label>
+                </p>
+                <p>
+                    <img class="responsive-img img"
+                        src="https://www.bbva.es/content/dam/public-web/bbvaes/images/personas/productos/02_tarjetas/productos/credito/tarjeta-despues/2400x1600-tarjeta-despues.png.img.2400.1563794455180.png"
+                        alt=""> <br>
+                    <input class="with-gap" name="group2" type="radio" id="test5" />
+                    <label for="test5">Tarjeta</label>
+                </p>
+                <p>
+                    <img class="responsive-img img"
+                        src="https://appmarketingnews.io/wp-content/uploads/2021/12/Bizum-banner-1.jpeg" alt=""> <br>
+
+                    <input class="with-gap" name="group2" type="radio" id="test6" />
+                    <label for="test6">Bizum</label>
+                </p>
+            </form>
+        </div>
+
+        <div class="offset-l2 col l9 m12 s12">
+            <h4>
+                <i class="small material-icons">check</i>
+                Resumen del pedido
+            </h4>
+            <hr>
+            <div class="col l2">
+                <img id="imgpedido" class="responsive-img"
+                    src="https://airsoftyecla.es/14313-large_default/heckler-koch-g3.jpg" alt="">
+            </div>
+            <div class="col l1">
+                <p id="desc">Descripción</p>
+                <p>HECKLER & KOCH G3</p>
+            </div>
+            <div class="offset-l3 col l2">
+                <p id="desc">Precio unitario</p>
+                <p id="inputnum">680,00 €</p>
+            </div>
+            <div class="offset-l1 col l1  ">
+                <p id="desc">Cant</p>
+                <input id="inputnum" type="number" name="tentacles" min="1" max="100" value="1">
+                <br>
+                <p>Subtotal:</p>
+                <p>Transporte:</p>
+                <p>Total:</p>
+            </div>
+            <div class="offset-l1 col l1  ">
+                <p id="desc">Total</p>
+                <b>680,00 €</b>
+                <br>
+                <p>680,00 €</p>
+                <p>Gratis</p>
+                <p>680,00 €</p>
+            </div>
+        </div>
+
+       
+
+    </div>
+    <div class="col center">
+        
+        <a onclick="alert('Pedido realizado con éxito! \n Gracias por confiar en GOE Airsoft!')" class="waves-effect waves-light btn black"><i class="material-icons left">shopping_cart</i>COMPRAR AHORA</a>
+    </div>
+    <br><br>
+    <app-footer></app-footer>
+
+</body>

@@ -1,0 +1,31 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/1IsXQYm.jpg);
+}
+
+#bg {
+    margin-top: 20px;
+    background-color: #000;
+}
+
+#legal {
+    font-family: 'Times New Roman', 'arial', sans-serif;
+    font-size: 45px;
+    color: #fff;
+}
+
+#imglegal {
+    width: 50px;
+}
+
+#center {
+    display: inline-block;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+}
+
+h4 {
+    color: #fff;
+}

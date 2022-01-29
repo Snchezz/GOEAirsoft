@@ -1,0 +1,73 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/1812875.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+label {
+    color: #000 !important;
+    font-family: 'block', 'arial', sans-serif;
+}
+
+input {
+    font-family: 'block', 'arial', sans-serif;
+}
+
+h3 {
+    font-family: 'block', Arial, sans-serif;
+}
+
+h4 {
+    font-family: 'block', Arial, sans-serif;
+}
+
+i {
+    font-size: 30px !important;
+}
+
+a {
+    font-size: 20px;
+    font-family: 'block', Arial, sans-serif;
+    color: #fff;
+    transition: ease-in-out .3s;
+}
+a:hover {
+    transform: scale(1.08);
+}
+
+button {
+    font-family: 'block', Arial, sans-serif;
+    font-size: 20px;
+    transition: ease-in-out .3s;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+.img {
+    width: 200px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+#imgpedido {
+    width: 150px;
+}
+
+#desc {
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'block', Arial, sans-serif;
+}
+
+p {
+    font-family: 'block', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#inputnum {
+    height: 15px;
+}

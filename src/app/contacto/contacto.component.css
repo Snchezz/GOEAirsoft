@@ -1,0 +1,58 @@
+body {
+    background-image: url(https://get.wallhere.com/photo/1920x1080-px-gun-military-soldier-656531.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+label, input, textarea, button {
+    font-family: 'block', 'arial', sans-serif;
+}
+
+h3 {
+    font-family: 'block', 'arial', sans-serif;
+    color: #000;
+}
+
+a {
+    font-family: 'block', 'arial', sans-serif;
+    color: #fff;
+}
+
+.ver, .azu, .ig {
+    transition: ease-in-out .3s;
+}
+
+.ver:hover{
+    color: #090;
+}
+
+.azu:hover {
+    color: #009CE8;
+}
+
+.ig:hover {
+    color: #d53081;
+}
+
+.iconos {
+    width: 30px;
+}
+
+.formbg {
+    background-color: rgba(0, 0, 0, 0.2);;
+    
+}
+
+label {
+    color: #000 !important;
+}
+
+#maps {
+    font-size: 20px !important;
+    transition: ease-in-out .3s;
+}
+
+#maps:hover {
+    color: grey;
+}

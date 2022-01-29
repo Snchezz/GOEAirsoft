@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/1IsXQYm.jpg);
+}
+
+#bg {
+    margin-top: 20px;
+    background-color: #000;
+}
+
+#cookies {
+    font-family: 'cookies', 'arial', sans-serif;
+    font-size: 25px;
+    color: brown;
+}
+
+#imgcookie {
+    width: 30px;
+}
+
+#center {
+    display: inline-block;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+}

@@ -1,0 +1,22 @@
+#text {
+    font-family: 'war', 'arial', sans-serif;
+}
+
+a {
+    font-family: 'progress', 'arial', sans-serif;
+    font-size: 22px;
+    transition: ease-in-out .3s;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+.active {
+    color: #BBB2B0;
+}
+
+.sidenav-overlay {
+    display: block; 
+    opacity: 0 !important;
+}
