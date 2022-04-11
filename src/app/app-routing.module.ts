@@ -14,6 +14,10 @@ import { LoginComponent } from './login/login.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { RegistrerComponent } from './registrer/registrer.component';
 import { NuevalocalizacionComponent } from './nuevalocalizacion/nuevalocalizacion.component';
+import { LoslobosComponent } from './loslobos/loslobos.component';
+import { SpainmodsComponent } from './spainmods/spainmods.component';
+import { KrakenComponent } from './kraken/kraken.component';
+import { GioComponent } from './gio/gio.component';
 
 
 const routes: Routes = [
@@ -29,6 +33,10 @@ const routes: Routes = [
   { path: 'carrito', component: CarritoComponent },
   { path: 'registro', component: RegistrerComponent },
   { path: 'noticias/nueva-localizacion-sevilla', component: NuevalocalizacionComponent },
+  { path: 'noticias/equipo-juvenil-los-lobos', component: LoslobosComponent },
+  { path: 'noticias/spainmods-presume-de-su-nuevo-mod', component: SpainmodsComponent },
+  { path: 'noticias/kraken-galicia-participara-en-el-europeo', component: KrakenComponent },
+  { path: 'noticias/la-marca-gi-o-crea-la-replica-mas-barata', component: GioComponent },
 
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent }

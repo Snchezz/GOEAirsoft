@@ -21,6 +21,10 @@ import { LoginComponent } from './login/login.component';
 import { RegistrerComponent } from './registrer/registrer.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { NuevalocalizacionComponent } from './nuevalocalizacion/nuevalocalizacion.component';
+import { LoslobosComponent } from './loslobos/loslobos.component';
+import { SpainmodsComponent } from './spainmods/spainmods.component';
+import { KrakenComponent } from './kraken/kraken.component';
+import { GioComponent } from './gio/gio.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +43,11 @@ import { NuevalocalizacionComponent } from './nuevalocalizacion/nuevalocalizacio
     LoginComponent,
     RegistrerComponent,
     CarritoComponent,
-    NuevalocalizacionComponent
+    NuevalocalizacionComponent,
+    LoslobosComponent,
+    SpainmodsComponent,
+    KrakenComponent,
+    GioComponent
   ],
   imports: [
     BrowserModule,
